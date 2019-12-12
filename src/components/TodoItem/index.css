@@ -1,0 +1,52 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 5px 16px;
+}
+
+.done-checkbox {
+  border: 1px solid #cdcdcd;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.125s all ease-in;
+}
+
+.done .done-checkbox {
+  border-color: #69db7c;
+  color: #69db7c;
+}
+
+.todo-item-text {
+  flex: 1;
+  margin-left: 10px;
+  transition: 0.125s all ease-in;
+}
+
+.done .todo-item-text {
+  color: #dddddd;
+  text-decoration: line-through;
+}
+
+.todo-item:hover .remove-button {
+  display: block;
+}
+
+.remove-button {
+  display: none;
+  color: #cdcdcd;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  color: #ff6b6b;
+}
