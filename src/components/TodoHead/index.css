@@ -1,0 +1,19 @@
+.todo-head {
+  padding: 0 16px 16px 16px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+h1 {
+  margin-bottom: 0px;
+}
+
+.day {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.tasks-left {
+  margin-top: 20px;
+  color: #748ffc;
+  font-weight: 600;
+}
