@@ -1,0 +1,10 @@
+.todo-container {
+  background: #fff;
+  width: 400px;
+  height: 600px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+}
