@@ -28,6 +28,7 @@ function App() {
     setTodos(todos.filter(todo => todo.id !== id));
   }
 
+  console.log("print log");
   return (
     <div className="App">
       <TodoContainer>
